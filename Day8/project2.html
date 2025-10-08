@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>IIT REGISTRATION FORM</legend>
+                <fieldset>
+                <legend>User Info</legend>
+                <label for="fname">Full  Name:</label>
+                <input type="text" id="fname" name="fname" placeholder="enter your name">
+                <br>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="enter your email">
+                <br>
+                <br>
+                <label for="phone number">Phone Number:</label>
+                <input type="tel" id="phone number" name="phone" placeholder="enter your phone number">
+                <br>
+                <br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="enter your password">
+                <br>
+                <br>
+                </fieldset>
+
+                <fieldset>
+                <legend>User Others Info</legend>
+                <label for="">Gender:</label>
+                <input type="radio" id="male" name="Gender" value="M">
+                <label for="male">Male</label>
+            
+                <input type="radio" id="female" name="Gender" value="F">
+                <label for="female">Female</label>
+                
+                <input type="radio" id="others" name="Gender" value="O">
+                <label for="others">Others</label>
+                <br>
+                <br>
+                <label for="date">DOB:</label>
+                <input type="date" id="date" name="DOB" min="2001-01-01" max="2005-12-31">
+                </fieldset>
+
+                <fieldset>
+                <legend>School</legend>
+                <label for="school">School Name:</label>
+                <input type="text" id="school" name="school" placeholder="enter your school name">
+                <br>
+                <br>
+                <label for="board">Board:</label>
+                <select name="board" id="board" required>
+                    <option value=""disabled selected>Select Your board</option>
+                    <option value="JAC">JAC</option>
+                    <option value="CBSE">CBSE</option>
+                    <option value="ICSE">ICSE</option>
+                </select>
+                <br>
+                <br>
+                   <label for="year">Year Of Passing:</label>
+                   <input type="number" id="year" name="year" min="2022" max="2025">
+                <br>
+                <br>
+                
+                <label for="center">Exam Center:</label>
+                <select name="center" id="center" required>
+                    <option value=""disabled selected>Select Your Exam Center</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Goa">Goa</option>
+                    <option value="Jharkhand">Jharkhand</option>
+                    <option value="Kolkata">Kolkata</option>
+                    <option value="Patna">Patna</option>
+                <br>
+                <br>
+                </select>
+                <br><br>
+                <button>Register</button>
+                </fieldset>
+        </fieldset>
+    </form>
+</body>
+</html>
